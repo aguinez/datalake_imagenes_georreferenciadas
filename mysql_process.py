@@ -2,11 +2,11 @@ import pymysql
 import datetime
 
 def get_connection():
-    connection = pymysql.connect(host='35.193.15.36',
-                                user='root',
-                                password='4R4UC02019',
-                                db='CATALOG',
-                                charset='utf8mb4',
+    connection = pymysql.connect(host='x',
+                                user='x',
+                                password='x',
+                                db='x',
+                                charset='x',
                                 cursorclass=pymysql.cursors.DictCursor)
     return connection
 
